@@ -1,0 +1,209 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ } 
+
+body{
+  font-family: 'roboto', sans-serif;
+  background: #f4f4f4;
+  margin-right: 10px; 
+  margin-left: 10px;
+  width: 97.4vw;
+   }
+
+div.right-nav ul li{
+  list-style: none;
+}
+#navbar{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  background: #fff;
+  padding: 10px;
+  margin-top: 0px;
+  margin-right: -10px; 
+  margin-left: -10px;
+  position: sticky;
+  top: 0;
+}
+
+#navbar .left-nav{
+  display: flex;
+}
+
+#navbar .left-nav .hamburger-icon{
+  font-size: 2rem;
+  margin-right: 20px;
+  cursor: pointer;
+ }
+
+#navbar .left-nav .hamburger-icon:hover{
+  background: #FFFBFB;
+  padding: 5px;
+  border-radius:5px;
+ }
+#navbar .left-nav h1{
+  background: #000;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+} 
+
+ #navbar  .right-nav ul li:first-child{
+  margin-left: -60px;
+  margin-bottom: -40px;
+   } 
+
+#navbar  .right-nav ul li:last-child{
+  background: #6965F5;
+  color: #fff;
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+ }
+
+ #navbar  .right-nav ul li:last-child:hover{
+  background: #1212E7;
+ }
+ 
+ /* post section */
+section.post-section .post-container{
+  display: flex;
+  justify-content: space-between;
+ margin: 10px 0;  
+ margin-top: 1 px;
+ }
+ 
+
+section.post-section .post-container h3{
+  text-align: center;
+  margin-top: 15px;
+  font-size: 1.3rem;
+}
+
+section.post-section h5{
+  background: #fff;
+  color: #666;
+  border: 1px solid #BEBBBB;
+  padding: 15px 60px 15px 15px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+}
+
+section.post-section img{
+  width:  97.4vw;
+  height: 350px;
+  margin-right: 10px;
+  border-top-right-radius: 7px;
+  border-top-left-radius: 7px;
+ } 
+
+ /* User Icon section  */
+ div.user-section{
+   background: #fff;
+   padding: 20px;
+   margin-bottom: 10px;
+   border-bottom-left-radius: 7px;
+   border-bottom-right-radius: 7px;
+ }
+
+  div.user-section .container-icon{
+    display: flex;
+  }
+
+ div.user-section .container-icon img{
+   margin: 20px 20px 20px 0;
+   border-radius: 50%;
+   height: 70px;
+   width: 70px;
+ }
+
+ div.user-section .container-icon .s-text h6{
+   margin-top: 20px;
+   font-size: 18px;
+   opacity: 0.6;
+ }
+
+ div.user-section .container-icon
+  .s-text sub{
+    font-size: 17px;
+    opacity: 0.5;
+  }
+
+  div.user-section .heading-2 h2{
+    font-size: 50px;
+  }
+
+  /* Hash tag */
+  div.user-section .hash-tags{
+    display: flex;
+    padding:7px;
+  }
+
+  div.user-section .hash-tags .tag-1{
+    margin-right: 60px;
+    font-size: 1.8rem;
+    opacity: 0.4;
+  }
+
+  /* Last section */
+  section.last-area{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  section.last-area .ul ul{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;    
+  }
+
+  section.last-area .ul ul li{
+    padding:10px;
+    list-style: none;
+    font-size: 1.2rem;
+  }
+
+  section.last-area .ul ul .crayons-icon{
+    font-size: 40px;
+    padding-top: 10px;
+    }
+
+  section.last-area .btn-area{
+    display: flex;
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+
+  section.last-area .btn-area .btn{
+    background: #A3A2A2;
+    margin-left: 10px;
+    margin-top: -25px;
+    font-size: 1.3rem;
+    opacity: 0.6;
+    padding: 20px;
+    border-radius: 7px;
+    cursor: pointer;
+  }
+
+  section.last-area .btn-area .btn:hover{
+    background: #797777;
+    color: #272020;
+  }
+
+  section.last-area .btn-area p{
+    opacity: 0.5;
+    font-size: 20px;
+   }
+
+  @media screen and (max-width:768px){
+    body{
+      
+     }
+
+
+
+  }
